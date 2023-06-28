@@ -48,3 +48,12 @@ const letters = ['A', 'B', 'C', 'E', 'F', 'G'];
 console.log(findMissingLetter(letters));  
 
 ```
+## **Education** 
+* **Currently pursuing a degree at Inha University**
+    - SOCIE  
+
+## **Languages**
+***
+* Russian - native
+* English - B1
+* Korean - B1

@@ -48,7 +48,8 @@ const letters = ['A', 'B', 'C', 'E', 'F', 'G'];
 console.log(findMissingLetter(letters));  
 
 ```
-## **Education** 
+## **Education**
+*** 
 * **Currently pursuing a degree at Inha University**
     - SOCIE  
 

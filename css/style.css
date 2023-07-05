@@ -94,6 +94,10 @@ body {
   justify-content: space-between;
 }
 
+.skills-list ul{
+ padding: 0;
+}
+
 .skills {
   display: flex;
   padding-bottom: 50px;

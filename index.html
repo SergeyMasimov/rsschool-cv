@@ -99,7 +99,7 @@
                                 function findMissingLetter(arr) {
                                     let start = arr[0].charCodeAt(0);
                                     
-                                    for (let i = 1; i < arr.length; i++) {
+                                    for (let i = 1; i &lt; arr.length; i++) {
                                       if (arr[i].charCodeAt(0) - start > 1) {
                                         return String.fromCharCode(start + 1);
                                       }
@@ -124,16 +124,18 @@
                     <div class="education">
                         <h2 class="education-title">EDUCATION</h2>
                         <ul>
-                            <li>INHA University in Tashkent</li>
-                            <ul>
-                                <li>SOCIE</li>
-                            </ul>
+                            <li>INHA University in Tashkent
+                                <ul>
+                                    <li>SOCIE</li>
+                                </ul>
+                            </li>
                         </ul>
                         <ul>
-                            <li>RS SCHOOL</li>
-                            <ul>
-                                <li>Stage 0</li>
-                            </ul>
+                            <li>RS SCHOOL
+                                <ul>
+                                    <li>Stage 0</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
 
@@ -157,7 +159,22 @@
     </main>
 
     <footer>
-  
+        <div class="container">
+            <nav class="final">
+                <div class="menu">
+                    <ul>
+                        <li><a href="https://github.com/SergeyMasimov" class="github"><img src="img&icon/github.svg"
+                                    alt="GitHub"></a></li>
+                        <li><a href="https://rs.school/js/" class="github"><img src="img&icon/rs_school_js.svg"
+                                    alt="RSCHOOL"></a></li>
+                        <li>
+                            <P class="created">2021</P>
+                            <p class="created">Created</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 

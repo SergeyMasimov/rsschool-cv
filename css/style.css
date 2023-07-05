@@ -1,3 +1,7 @@
+html {
+  background-color: rgb(43, 40, 40);
+}
+
 .container {
   max-width: 1200px;
   background-color: blanchedalmond;
@@ -5,12 +9,21 @@
   padding: 50px 100px 0 150px;
 }
 
-h1{
+li {
+  list-style: none;
+}
+
+h1 {
   color: #93e896;
 }
 
-h2{
+h2 {
   color: #93e896;
+}
+
+.pointer {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -58,11 +71,14 @@ body {
   width: 25px;
 }
 
+.link-list a {
+  padding-left: 10px;
+}
+
 .link-list {
   margin: 0;
   padding: 0;
   padding-right: 150px;
-  list-style: none;
 }
 
 .link-list li {
@@ -80,7 +96,7 @@ body {
 
 .skills {
   display: flex;
-  padding-bottom: 50pxpx;
+  padding-bottom: 50px;
 }
 
 .cvskills h2 {
@@ -116,12 +132,43 @@ body {
   justify-content: center;
 }
 
-.education-lang{
-  display:flex;
+.education-lang {
+  display: flex;
   align-items: center;
+  padding-bottom: 100px;
 }
 
-.languages{
+.education li,
+.languages li {
+  list-style-type: circle;
+}
+
+.languages {
   padding-left: 300px;
 
+}
+
+.languages li {
+  padding-bottom: 10px;
+}
+
+.footer-final {
+  display: flex;
+  justify-content: center;
+}
+
+.final img {
+  width: 80px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+
+}
+
+.created {
+  margin: 0;
 }

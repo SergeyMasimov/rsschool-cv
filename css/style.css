@@ -1,13 +1,105 @@
-body {
-  background-color: lightblue;
+.container {
+  max-width: 1200px;
+  background-color: grey;
+  margin: 0 auto;
+  padding: 0 100px 0 50px;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  max-width: 630px;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  max-width: 630px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.ava {
+  padding: 50px;
+  border-radius: 80%;
+  max-width: 250px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+
+}
+
+.header-title,
+.p-header {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.header-text {
+  padding: 10px 220px;
+  display: block;
+}
+
+.cv-mycontacts img {
+  width: 25px;
+}
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-list li {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-mycontacts {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+  padding-top: 100px;
+}
+
+.cv-skills h2 {
+  margin: 0;
+}
+
+.cv-skills {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  height: 10px;
+  margin-bottom: 5px;
+}
+
+.skill-level {
+  border-radius: 5px;
+  height: 100%;
+  background-color: #93e896;
+}
+
+.code-example-title {
+  display: flex;
+  justify-content: center;
 }

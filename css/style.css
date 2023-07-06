@@ -1,5 +1,10 @@
 html {
   background-color: rgb(43, 40, 40);
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 200px;
 }
 
 .container {
@@ -21,10 +26,6 @@ h2 {
   color: #93e896;
 }
 
-.pointer {
-  margin: 0;
-  padding: 0;
-}
 
 a {
   text-decoration: none;
@@ -51,20 +52,36 @@ body {
   max-width: 300px;
 }
 
-.header-content {
+.under-header {
   display: flex;
-  align-items: center;
 }
+
+.navigation ul {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.header-content {
+  justify-content: center;
+}
+
 
 .header-title,
 .p-header {
   margin: 0;
-  padding: 5px 0;
+  padding-bottom: 10px;
 }
 
 .header-text {
-  padding: 10px 220px;
+  padding: 100px 0 0 220px;
   display: block;
+}
+
+.header-menu {
+  display: block;
+  padding-bottom: 100px;
 }
 
 .cv-mycontacts img {
@@ -94,8 +111,8 @@ body {
   justify-content: space-between;
 }
 
-.skills-list ul{
- padding: 0;
+.skills-list ul {
+  padding: 0;
 }
 
 .skills {

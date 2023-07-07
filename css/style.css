@@ -1,0 +1,222 @@
+html {
+  background-color: rgb(43, 40, 40);
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: blanchedalmond;
+  margin: 0 auto;
+  padding: 50px 100px 0 150px;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: #93e896;
+}
+
+h2 {
+  color: #93e896;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color: #93e896;
+}
+
+h2 {
+  max-width: 630px;
+}
+
+p {
+  max-width: 630px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+.ava {
+  background-color: #93e896;
+  padding: 20px;
+  border-radius: 90%;
+  max-width: 300px;
+}
+
+.under-header {
+  display: flex;
+}
+
+.navigation ul {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.header-content {
+  justify-content: center;
+}
+
+
+.header-title,
+.p-header {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.header-text {
+  padding: 100px 0 0 220px;
+  display: block;
+}
+
+.header-menu {
+  display: block;
+  padding-bottom: 100px;
+}
+
+.cv-mycontacts img {
+  width: 25px;
+}
+
+.link-list a {
+  padding-left: 10px;
+}
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  padding-right: 150px;
+}
+
+.link-list li {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-mycontacts {
+  align-items: center;
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.skills-list ul {
+  padding: 0;
+}
+
+.skills {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.cvskills h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.cvskills {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #e0dfdf;
+  height: 10px;
+  margin-bottom: 5px;
+}
+
+.skill-level {
+  border-radius: 5px;
+  height: 100%;
+  background-color: #93e896;
+}
+
+.skill-level{
+  transition: background-color 0.3s ease;
+}
+
+.skill-level:hover{
+  background-color: #286c2a;
+}
+
+.code-example-title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.code-example{
+  display: flex;
+  flex-direction: column;
+}
+
+.education-lang {
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.education li,
+.languages li {
+  list-style-type: circle;
+}
+
+.languages {
+  padding-left: 300px;
+
+}
+
+.languages li {
+  padding-bottom: 10px;
+}
+
+.footer-final {
+  display: flex;
+  justify-content: center;
+}
+
+.final img {
+  width: 80px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+
+}
+
+.created {
+  margin: 0;
+}
+
+
+
+@media (max-width: 1303px){
+  html{
+    background-color: blanchedalmond;
+  }
+}

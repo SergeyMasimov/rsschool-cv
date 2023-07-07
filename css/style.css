@@ -30,6 +30,11 @@ h2 {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color: #93e896;
 }
 
 h2 {
@@ -148,9 +153,23 @@ body {
   background-color: #93e896;
 }
 
+.skill-level{
+  transition: background-color 0.3s ease;
+}
+
+.skill-level:hover{
+  background-color: #286c2a;
+}
+
 .code-example-title {
   display: flex;
   justify-content: center;
+  margin: 0;
+}
+
+.code-example{
+  display: flex;
+  flex-direction: column;
 }
 
 .education-lang {
@@ -192,4 +211,12 @@ body {
 
 .created {
   margin: 0;
+}
+
+
+
+@media (max-width: 1303px){
+  html{
+    background-color: blanchedalmond;
+  }
 }

@@ -151,11 +151,29 @@ body {
   border-radius: 5px;
   height: 100%;
   background-color: #93e896;
-}
-
-.skill-level{
   transition: background-color 0.3s ease;
 }
+
+.skill-level1{
+  width: 60%;
+}
+
+.skill-level2{
+  width: 60%;
+}
+
+.skill-level3{
+  width: 30%;
+}
+
+.skill-level4{
+  width: 40%;
+}
+
+.skill-level5{
+  width: 70%;
+}
+
 
 .skill-level:hover{
   background-color: #286c2a;
